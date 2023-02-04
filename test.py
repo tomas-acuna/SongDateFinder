@@ -16,7 +16,7 @@ def get_search_result(guess):
 print()
 cont = True
 while cont:
-    search = input("search for song:")
+    search = input("search for song: ")
     if search == "exit":
         cont = False
     else:
