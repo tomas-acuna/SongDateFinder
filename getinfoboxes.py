@@ -35,5 +35,3 @@ def find_sections_with(search, string):
 
 def get_infoboxes(string):
     return find_sections_with("Infobox", string)
-
-#print(find_sections_with("good", "{{hello there {good sir}} how are you {on {this good {very fine} day}}}"))
